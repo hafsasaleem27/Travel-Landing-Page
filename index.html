@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Your Project Title</title>
 
   <!-- Bootstrap 5 CSS CDN -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Optional: Bootstrap Icons -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    rel="stylesheet"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 
   <!-- Your custom CSS -->
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  
+
   <!-- Your content goes here -->
   <header class="bg-light py-3">
     <nav class="navbar navbar-expand-lg navbar-light container">
@@ -32,8 +28,8 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-us">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         </ul>
       </div>
@@ -42,15 +38,15 @@
 
   <main>
     <!-- Sections like Hero, Cards, About, etc. -->
-     <section class="hero d-flex align-items-center text-white">
+    <section class="hero d-flex align-items-center text-white">
       <div class="container text-center">
-        <h1 class="display-4 fw-bold">Discover your next aventure</h1>
+        <h1 class="display-4 fw-bold">Discover your next adventure</h1>
         <p class="lead">Find the best destinations and make unforgettable memories with us.</p>
         <a href="#destinations" class="btn btn-primary btn-lg mt-3">Explore Now</a>
       </div>
-     </section>
-     
-     <section class="py-5 bg-light">
+    </section>
+
+    <section class="py-5 bg-light" id="destinations">
       <div class="container">
         <h2 class="text-center mb-5">Popular Destinations</h2>
         <div class="row g-4">
@@ -58,63 +54,138 @@
           <!-- Destination card 1 -->
           <div class="col-md-6 col-lg-4">
             <div class="card h-100 shadow-sm">
-              <img src="https://images.unsplash.com/photo-1653530899380-3eb904d6e2a2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Paris" height="500px"/>
+              <img
+                src="https://images.unsplash.com/photo-1653530899380-3eb904d6e2a2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top" alt="Paris" height="500px" />
               <div class="card-body">
                 <h5 class="card-title">Paris, France</h5>
-                <p class="card-text">Explore the romantic city of lights - home to the Eiffel Tower and world-class cuisine.</p>
+                <p class="card-text">Explore the romantic city of lights - home to the Eiffel Tower and world-class
+                  cuisine.</p>
               </div>
             </div>
-          </div> 
+          </div>
 
           <!-- Destination card 2 -->
           <div class="col-md-6 col-lg-4">
             <div class="card h-100 shadow-sm">
-              <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Tokyo" height="500px"/>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top" alt="Tokyo" height="500px" />
               <div class="card-body">
                 <h5 class="card-title">Tokyo, Japan</h5>
-                <p class="card-text">Dive into a vibrant city of tradition and technology, sushi, and stunning skylines.</p>
+                <p class="card-text">Dive into a vibrant city of tradition and technology, sushi, and stunning skylines.
+                </p>
               </div>
             </div>
-          </div> 
+          </div>
 
           <!-- Destination card 3 -->
           <div class="col-md-6 col-lg-4">
             <div class="card h-100 shadow-sm">
-              <img src="https://images.unsplash.com/photo-1655289112294-02e39768ab6a?q=80&w=2100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Bali" height="500px"/>
+              <img
+                src="https://images.unsplash.com/photo-1655289112294-02e39768ab6a?q=80&w=2100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top" alt="Bali" height="500px" />
               <div class="card-body">
                 <h5 class="card-title">Bali, Indonesia</h5>
-                <p class="card-text">Relax on sunny beaches, explore lush rice terraces, and experience rich culture in Bali.</p>
+                <p class="card-text">Relax on sunny beaches, explore lush rice terraces, and experience rich culture in
+                  Bali.</p>
               </div>
             </div>
-          </div> 
+          </div>
 
         </div>
       </div>
-     </section>
+    </section>
 
-     <section class="py-5">
+    <section class="py-5" id="about-us">
       <div class="container">
         <div class="row align-items-center">
 
           <!-- Text Content-->
           <div class="col-lg-6 mb-4 mb-lg-0">
             <h2 class="mb-4">About Us</h2>
-            <p>We are passionate travelers, explorers, and storytellers. Our mission is to help you discover unforgettable destinations and create
+            <p>We are passionate travelers, explorers, and storytellers. Our mission is to help you discover
+              unforgettable destinations and create
               meaningful memories along the way.
             </p>
             <p>
-              With expert guides, curated travel packages, and tips from real travelers, we make your journey exciting, easy and full of adventure
+              With expert guides, curated travel packages, and tips from real travelers, we make your journey exciting,
+              easy and full of adventure
             </p>
             <a href="#" class="btn btn-outline-primary mt-3">Learn More</a>
           </div>
 
           <!-- Image Content-->
-           <div class="col-lg-6">
-            <img src="https://images.unsplash.com/photo-1707344088547-3cf7cea5ca49?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-3 shadow" alt="About us image"/>
-           </div>
+          <div class="col-lg-6">
+            <img
+              src="https://images.unsplash.com/photo-1707344088547-3cf7cea5ca49?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="img-fluid rounded-3 shadow" alt="About us image" />
+          </div>
         </div>
       </div>
-     </section>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">What Our Travelers Say</h2>
+
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="card text-center mx-auto" style="max-width: 600px;">
+                <div class="card-body">
+                  <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-3" width="80"
+                    height="80" alt="User 1">
+                  <h5 class="card-title">Emily Johnson</h5>
+                  <p class="card-text">"Absolutely unforgettable! The trip was smooth and the team made sure everything
+                    was perfect. Can’t wait to book my next adventure."</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="card text-center mx-auto" style="max-width: 600px;">
+                <div class="card-body">
+                  <img src="https://randomuser.me/api/portraits/men/36.jpg" class="rounded-circle mb-3" width="80"
+                    height="80" alt="User 2">
+                  <h5 class="card-title">James Wilson</h5>
+                  <p class="card-text">"Loved every moment! The destinations, the guides, the vibes — 10/10 would
+                    recommend to anyone looking for an escape."</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="card text-center mx-auto" style="max-width: 600px;">
+                <div class="card-body">
+                  <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle mb-3" width="80"
+                    height="80" alt="User 3">
+                  <h5 class="card-title">Sophie Lee</h5>
+                  <p class="card-text">"They really take care of every little detail. It felt like a dream vacation. So
+                    glad I found this site!"</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="bg-dark text-white text-center py-4">
@@ -122,11 +193,10 @@
   </footer>
 
   <!-- Bootstrap 5 JS Bundle (includes Popper) -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Your custom JavaScript -->
   <script src="script.js"></script>
 </body>
+
 </html>

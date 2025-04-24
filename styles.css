@@ -1,6 +1,10 @@
 .hero {
-    background-image: url('./hills.jpg');
+    background-image: url('./images/hills.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: grey;
 }
